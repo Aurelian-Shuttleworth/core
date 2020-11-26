@@ -14,7 +14,7 @@ class OAuth2FlowHandler(
 
     DOMAIN = DOMAIN
     # TODO Pick one from config_entries.CONN_CLASS_*
-    CONNECTION_CLASS = config_entries.CONN_CLASS_UNKNOWN
+    CONNECTION_CLASS = config_entries.CONN_CLASS_CLOUD_POLL
 
     @property
     def logger(self) -> logging.Logger:

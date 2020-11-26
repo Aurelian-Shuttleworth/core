@@ -3,5 +3,5 @@
 DOMAIN = "investec_beta"
 
 # TODO Update with your own urls
-OAUTH2_AUTHORIZE = "https://www.example.com/auth/authorize"
-OAUTH2_TOKEN = "https://www.example.com/auth/token"
+OAUTH2_AUTHORIZE = "https://openapi.investec.com/identity/v2/oauth2/token"
+OAUTH2_TOKEN = "https://openapi.investec.com/identity/v2/oauth2/token"

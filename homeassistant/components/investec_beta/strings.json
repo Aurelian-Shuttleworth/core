@@ -2,6 +2,13 @@
   "title": "investec_beta",
   "config": {
     "step": {
+      "user": {
+        "title": "Connect to the device",
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "timeout": "Timeout"
+        }
+      },
       "pick_implementation": {
         "title": "[%key:common::config_flow::title::oauth2_pick_implementation%]"
       }

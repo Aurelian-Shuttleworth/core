@@ -4,7 +4,7 @@
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/investec_beta",
   "requirements": [
-    "investec_banking_integration==0.0.1"
+    "investec==0.0.4"
   ],
   "ssdp": [],
   "zeroconf": [],
